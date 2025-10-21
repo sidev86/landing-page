@@ -3,91 +3,122 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Landing Page</title>
+    <title>RetroPlay – Relive the Classics</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
+    <!-- HEADER -->
     <div class="header">
-      <div class="header-logo">Header Logo</div>
+      <div class="header-logo">RetroPlay</div>
       <div class="header-links">
         <ul>
-          <li><a href="#">header link one</a></li>
-          <li><a href="#">header link two</a></li>
-          <li><a href="#">header link three</a></li>
+          <li><a href="#games">Games</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#community">Community</a></li>
         </ul>
       </div>
     </div>
+
+    <!-- HERO -->
     <div class="hero">
       <div class="hero-left">
-        <div class="hero-title">This website is awesome</div>
+        <div class="hero-title">Relive the Golden Age of Gaming</div>
         <div class="hero-info">
-          This website has some subtext that goes here under the main title.
-          It's a smaller font and the color is lower contrast
+          Step back into the 80s and 90s — where pixels ruled the world,
+          joysticks clicked, and every coin counted. Play timeless classics and
+          discover the roots of gaming.
         </div>
-        <button>Sign up</button>
+        <button>Play Now</button>
       </div>
       <div class="hero-right">
-        <div class="placeholder">this is a placeholder for an image</div>
+        <img
+          class="hero-image"
+          src="images/retrogaming.png"
+          alt="retrogaming"
+        />
       </div>
     </div>
-    <div class="features">
-      <div class="feature-title">Some random information</div>
+
+    <!-- FEATURES -->
+    <div class="features" id="games">
+      <div class="feature-title">Featured Classics</div>
       <div class="features-container">
         <div class="feature">
-          <div class="feature-image"></div>
+          <img class="feature-image" src="images/pacman.png" alt="pac-man" />
           <div class="feature-info">
-            this is some subtext under an illustration or image
+            <strong>Pac-Man</strong><br />
+            Munch your way through the maze and escape the ghosts in this
+            timeless arcade legend.
           </div>
         </div>
         <div class="feature">
-          <div class="feature-image"></div>
+          <img
+            class="feature-image"
+            src="images/spaceinvaders.png"
+            alt="space invaders"
+          />
           <div class="feature-info">
-            this is some subtext under an illustration or image
+            <strong>Space Invaders</strong><br />
+            Defend Earth from waves of alien invaders and make your mark on the
+            high-score board.
           </div>
         </div>
         <div class="feature">
-          <div class="feature-image"></div>
+          <img
+            class="feature-image"
+            src="images/supermario.png"
+            alt="super mario"
+          />
           <div class="feature-info">
-            this is some subtext under an illustration or image
+            <strong>Super Mario Bros.</strong><br />
+            Jump, stomp, and save the Mushroom Kingdom in this all-time classic.
           </div>
         </div>
         <div class="feature">
-          <div class="feature-image"></div>
+          <img class="feature-image" src="images/sonic.png" alt="sonic" />
           <div class="feature-info">
-            this is some subtext under an illustration or image
+            <strong>Sonic the Hedgehog</strong><br />
+            Run at supersonic speed and collect rings in Sega’s 16-bit
+            masterpiece.
           </div>
         </div>
       </div>
     </div>
+
+    <!-- QUOTE -->
     <div class="quote">
       <div class="quote-text">
-        This is an inspiring quote, or a testimonial from a customer. Maybe it's
-        just filling up space, or maybe people will actually read it. Who knows?
-        All I know is that it looks nice.
+        “Retro games remind us that fun doesn’t need 4K graphics — just heart,
+        challenge, and a joystick.”
       </div>
-      <div class="quote-author">-Thor, God of Thunder</div>
+      <div class="quote-author">– RetroPlay Team</div>
     </div>
-    <div class="signup">
+
+    <!-- SIGNUP -->
+    <div class="signup" id="community">
       <div class="signup-container">
         <div class="signup-left">
-          <div class="signup-title">Call to action! It's time!</div>
+          <div class="signup-title">Join the Retro Revolution!</div>
           <div class="signup-info">
-            Sign up for our product by clicking that button right over there!
+            Become part of a community of nostalgic gamers. Get early access to
+            tournaments, retro merch, and exclusive arcade nights.
           </div>
         </div>
         <div class="signup-right">
-          <button class="signup-button">Sign up</button>
+          <button class="signup-button">Join Now</button>
         </div>
       </div>
     </div>
+
+    <!-- FOOTER -->
     <div class="footer">
-      <div class="footer-text">Copyright © The Odin Project 2021</div>
+      <div class="footer-text">© 2025 RetroPlay. All rights reserved</div>
     </div>
   </body>
 </html>

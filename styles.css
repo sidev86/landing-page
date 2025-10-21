@@ -34,8 +34,8 @@ button {
   color: #f9faf8;
   justify-content: space-between;
   align-items: center;
-  padding-left: 128px;
-  padding-right: 128px;
+  padding-left: 256px;
+  padding-right: 256px;
 }
 
 .header-logo {
@@ -47,9 +47,14 @@ button {
   background-color: #1f2937;
   display: flex;
   justify-content: space-between;
-  padding: 128px;
+  padding: 128px 256px;
   align-items: center;
   color: #f9faf8;
+}
+
+.hero-image {
+  width: 500px;
+  border-radius: 6px;
 }
 
 .hero-info {
@@ -102,7 +107,7 @@ button {
 }
 
 .feature-info {
-  width: 200px;
+  width: 150px;
   text-align: center;
   margin-top: 8px;
   color: #1f2937;
