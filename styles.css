@@ -52,8 +52,8 @@ button {
   color: #f9faf8;
 }
 
-.hero-image {
-  width: 200px;
+.hero-image img {
+  width: 500px;
   border-radius: 6px;
 }
 
